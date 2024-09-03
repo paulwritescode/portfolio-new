@@ -8,17 +8,7 @@ export const HoverEffect = ({
   items,
   className,
 }: {
-  items: {
-    title: string;
-    date: string;
-    role: string;
-    location: string;
-    icon: React.ReactNode;
-    artifacts: string[];
-    description1: string;
-    company: string;
-    link: string;
-  }[];
+  items: any[];
   className?: string;
 }) => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -51,7 +41,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <div className="flex flex-col md:flex-row gap-3  rounded-xl  ">
+            <div className="flex flex-col md:flex-row gap-3  rounded-xl  p-2">
               <div className="">
                 <p className="text-sm w-[7rem] text-slate-400 uppercase">
                   {item.date}
@@ -73,7 +63,7 @@ export const HoverEffect = ({
                   {item.description1}
                 </p>
                 <span className="flex gap-2 mt-4 flex-wrap text-sm">
-                  {item.artifacts.map((artifact, index) => (
+                  {item.artifacts.map((artifact: string, index: number) => (
                     <p
                       key={index}
                       className="p-1 rounded-xl px-3 bg-teal-200/10 text-teal-400"

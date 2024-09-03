@@ -19,6 +19,7 @@ const content = [
       artifacts: experience.artifacts,
       id: experience.id,
       company: experience.company,
+      link: experience.company,
     })),
 ];
 function Experience() {
