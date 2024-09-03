@@ -13,8 +13,8 @@ function Intro() {
     <>
       <TypewriterEffectSmooth className="text-white" words={introName} />
 
-      <p className="text-2xl md:text-2xl lg:text-2xl   text-white/60 leading-relaxed lg:leading-snug  ">
-        I specialize in crafting
+      <p className="text-xl md:text-2xl lg:text-2xl   text-white/60 leading-relaxed lg:leading-snug  ">
+        I specialize in crafting <br className=" lg:hidden" />
         <FlipWords
           className="text-2xl font-bold  text-purple-400"
           words={word}

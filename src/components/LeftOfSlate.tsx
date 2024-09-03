@@ -1,6 +1,6 @@
 import Intro from "./Intro";
 import MyTools from "./MyTools";
-// import NavBar from "./NavBar";
+import NavBar from "./NavBar";
 import { FloatingDockDemo } from "./SocialLinks";
 
 function LeftOfSlate() {
@@ -9,13 +9,12 @@ function LeftOfSlate() {
       <div className=" flex flex-col justify-between">
         <div>
           <Intro />
-          <MyTools />
         </div>
         <div>
           <FloatingDockDemo />
-          {/* <NavBar /> */}
+          <NavBar />
+          <MyTools />
         </div>
-        <div></div>
       </div>
     </>
   );
