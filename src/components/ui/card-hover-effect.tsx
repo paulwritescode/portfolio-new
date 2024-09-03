@@ -41,7 +41,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <div className="flex flex-col md:flex-row gap-3  rounded-xl  p-2">
+            <div className="flex flex-col md:flex-row gap-3  rounded-xl  p-1">
               <div className="">
                 <p className="text-sm w-[7rem] text-slate-400 uppercase">
                   {item.date}
