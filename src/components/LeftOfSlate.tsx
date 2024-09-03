@@ -11,8 +11,8 @@ function LeftOfSlate() {
           <Intro />
         </div>
         <div>
-          <FloatingDockDemo />
           <NavBar />
+          <FloatingDockDemo />
           <MyTools />
         </div>
       </div>
@@ -21,4 +21,3 @@ function LeftOfSlate() {
 }
 
 export default LeftOfSlate;
-// w-[50%] md:sticky md:top-0
