@@ -1,6 +1,5 @@
 import Intro from "./Intro";
 import MyTools from "./MyTools";
-import NavBar from "./NavBar";
 import { FloatingDockDemo } from "./SocialLinks";
 
 function LeftOfSlate() {
@@ -11,7 +10,6 @@ function LeftOfSlate() {
           <Intro />
         </div>
         <div>
-          <NavBar />
           <FloatingDockDemo />
           <MyTools />
         </div>

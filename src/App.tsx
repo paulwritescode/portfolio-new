@@ -5,7 +5,7 @@ import Slate from "./components/Slate";
 function App() {
   return (
     <>
-      <main className=" p-10">
+      <main className=" p-7">
         <Slate />
 
         {/* <ProjectsArchive /> */}

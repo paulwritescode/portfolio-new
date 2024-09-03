@@ -12,7 +12,7 @@ function Slate() {
           </div>
           <div className="w-full md:w-[40%]  ">
             <div className="md:hidden">
-              <TracingBeam className="pl-8 h-screen  no-scrollbar overflow-y-visible ">
+              <TracingBeam className=" h-screen  no-scrollbar overflow-y-visible ">
                 <RightOfSlate />
               </TracingBeam>
             </div>
