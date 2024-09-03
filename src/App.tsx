@@ -1,6 +1,6 @@
 import Slate from "./components/Slate";
 
-// import { ProjectsArchive } from "./components/ProjectsArchive";
+import { ProjectsArchive } from "./components/ProjectsArchive";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <main className=" p-4">
         <Slate />
 
-        {/* <ProjectsArchive /> */}
+        <ProjectsArchive />
       </main>
     </>
   );
