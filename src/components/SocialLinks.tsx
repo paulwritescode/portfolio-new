@@ -43,7 +43,7 @@ export function FloatingDockDemo() {
     },
   ];
   return (
-    <div className=" h-max items-start w-max md:flex hidden mt-10">
+    <div className=" h-max items-start w-max md:flex   hidden mt-10">
       <FloatingDock items={links} />
     </div>
   );

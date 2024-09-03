@@ -10,7 +10,6 @@ function About() {
         goal is to create impactful solutions that resonate with users and
         elevate their digital experience.
       </div>
-      <p>This is a paragraph</p>
 
       <div>{/* <CanvasRevealEffectDemo /> */}</div>
     </>
