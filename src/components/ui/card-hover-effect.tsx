@@ -43,7 +43,7 @@ export const HoverEffect = ({
           <Card>
             <div className="flex flex-col md:flex-row gap-3  rounded-xl  p-1">
               <div className="">
-                <p className="text-sm w-[7rem] text-slate-400 uppercase">
+                <p className="text-xs w-[7rem] text-slate-400 uppercase">
                   {item.date}
                 </p>
               </div>
@@ -52,10 +52,19 @@ export const HoverEffect = ({
                   {item.title}
                   <span className="text-sm ml-1"> // {item.company}</span>
                 </h1>
-                <p className="text-sm capitalize text-slate-400 gap-2 flex">
-                  {item.role}
-                </p>
-                <p className="capitalize text-sm mb-2 text-teal-500 flex items-center">
+
+                <div className="flex gap-1">
+                  {item.role.map((role: string, index: number) => (
+                    <p
+                      key={index}
+                      className="text-sm capitalize text-slate-400"
+                    >
+                      {role} |
+                    </p>
+                  ))}
+                </div>
+
+                <p className="capitalize text-sm my-2 text-teal-500 flex items-center">
                   <MapPin className="w-4 h-4 mr-1" />
                   {item.location}
                 </p>

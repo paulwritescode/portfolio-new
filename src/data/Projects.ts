@@ -12,7 +12,7 @@ export const projects = [
       "User guides",
     ],
 
-    stack: "python, Go",
+    stack: ["python", "Go"],
     url: "https://example.com/fleet",
   },
   {
@@ -101,7 +101,7 @@ export const projects = [
     image:
       "https://c.wallhere.com/photos/bc/22/Steam_OS_Steam_software_Valve_Corporation-58048.png!d",
     description:
-      "A fitness tracking application that monitors workouts, tracks progress, and provides personalized fitness plans.",
+      "A fitness tracking application that monitors workouts, tracks progress, and provides personalized fitness plansA fitness tracking application that monitors workouts, tracks progress, and provides personalized fitness plansA fitness tracking application that monitors workouts, tracks progress, and provides personalized fitness plansA fitness tracking application that monitors workouts, tracks progress, and provides personalized fitness plansA fitness tracking application that monitors workouts, tracks progress, and provides personalized fitness plansA fitness tracking application that monitors workouts, tracks progress, and provides personalized fitness plans.",
     artifacts: [
       "Workout templates",
       "Progress tracking algorithms",

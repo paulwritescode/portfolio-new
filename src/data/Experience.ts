@@ -7,7 +7,7 @@ export const experience = [
     location: "remote",
     date: "Nov 2023 - Present",
     description:
-      "I develop user-focused web applications using React, ensuring they are visually appealing and functional working with designers and backend developers to turn UI/UX designs into responsive interfaces. As a Scrum Master, I facilitating agile processes and enhancing team collaboration. I make use of Tauri for desktop apps and Trello for agile workflows",
+      "Develop user-focused web applications, ensuring they are visually appealing and functional. Turn UI/UX designs into responsive interfaces. I facilitate agile processes and enhancing team collaboration.",
     artifacts: [
       "React",
       "Figma",
@@ -26,7 +26,7 @@ export const experience = [
     location: "Nairobi, Kenya",
     date: "May 2023 - Aug 2023",
     description:
-      "I was responsible for creating scripts to automate maintenance and troubleshooting processes, significantly streamlining operations and reducing downtime. Oversaw the installation and troubleshooting of all hardware and software in the computer laboratories on campus, ensuring that systems run smoothly and efficiently. I also explored and implemented software alternatives.",
+      "Created scripts to automate maintenance and troubleshooting processes. Oversaw the installation and troubleshooting of all hardware and software in the computer laboratories on campus. I also explored and implemented software alternatives.",
     artifacts: [
       "Communication",
       "Interpersonal Skills",

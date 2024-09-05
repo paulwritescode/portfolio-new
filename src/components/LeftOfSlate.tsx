@@ -1,7 +1,7 @@
+import FunnyNav from "./FunnyNav";
 import Intro from "./Intro";
 import MyTools from "./MyTools";
 import { FloatingDockDemo } from "./SocialLinks";
-import WorkEthics from "./WorkEthics";
 
 function LeftOfSlate() {
   return (
@@ -11,7 +11,7 @@ function LeftOfSlate() {
           <Intro />
         </div>
         <div>
-          <WorkEthics />
+          <FunnyNav />
         </div>
         <div>
           <FloatingDockDemo />

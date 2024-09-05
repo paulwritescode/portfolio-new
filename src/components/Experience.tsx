@@ -1,9 +1,7 @@
-import { MapPin, Milestone } from "lucide-react";
+import { IconPdf } from "@tabler/icons-react";
+import { MapPin } from "lucide-react";
 import { experience } from "../data/Experience";
 import { HoverEffect } from "./ui/card-hover-effect";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
-
-const words = "View Full Resume";
 
 const content = [
   ...experience
@@ -28,16 +26,17 @@ function Experience() {
       <div className=" mx-auto ">
         <HoverEffect className="w-full gap-10" items={content} />
       </div>
-
-      <div className="my-8">
+      <div className="my-8 ">
         <a
-          href="/path/to/your/resume.pdf" // Replace with the actual path to your resume
-          className="text-white  flex items-center  "
+          href="/src/data/Kinyatti Paul resume.pdf" // Replace with the actual path to your resume
+          className="text-white flex items-center group"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Milestone className="w-6 h-6 mr-2" />
-          <TextGenerateEffect className="text-blue-400" words={words} />
+          <div className="w-8 h-8 mr-2  rounded-sm transition duration-300 ease-in-out group-hover:bg-red-500">
+            <IconPdf className="w-full h-full" />
+          </div>
+          <p className="font-semibold text-sm">View full resume</p>
         </a>
       </div>
     </>
