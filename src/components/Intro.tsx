@@ -11,21 +11,25 @@ function Intro() {
   ];
   return (
     <>
-      <TypewriterEffectSmooth className="text-white" words={introName} />
-
-      <p className="text-xl md:text-2xl lg:text-2xl   text-white/60 leading-relaxed lg:leading-snug  ">
-        I craft <br className=" lg:hidden" />
-        <FlipWords
-          className="text-2xl font-bold  text-purple-400"
-          words={word}
+      <div className="flex flex-col">
+        <TypewriterEffectSmooth
+          className="text-white justify-center md:justify-start flex text-center items-center"
+          words={introName}
         />
-        <br />
-        experiences.I bring ideas to life by transforming UI/UX concepts{" "}
-        <br className="hidden lg:block" />
-        <Highlight className="text-black dark:text-slate-400 text-xl font-bold ">
-          into intuitive and responsive interfaces.
-        </Highlight>
-      </p>
+        <p className="text-xl md:text-2xl lg:text-2xl text-center md:text-left text-white/60 leading-relaxed lg:leading-snug  ">
+          I craft <br className=" lg:hidden" />
+          <FlipWords
+            className="text-2xl font-bold  text-purple-400"
+            words={word}
+          />
+          <br />
+          experiences.I bring ideas to life by transforming UI/UX concepts{" "}
+          <br className="hidden lg:block" />
+          <Highlight className="text-black dark:text-slate-400 text-xl font-bold ">
+            into intuitive and responsive interfaces.
+          </Highlight>
+        </p>
+      </div>
     </>
   );
 }
