@@ -11,27 +11,26 @@ export function FloatingDockDemo() {
     {
       title: "GitHub",
       icon: <IconBrandGithub className="h-full w-full text-white" />,
-      href: "#",
+      href: "https://github.com/paulwritescode",
     },
     {
       title: "Email",
       icon: <IconMail className="h-full w-full text-white" />,
-      href: "#",
+      href: "mailto:kinyattipaul@gmail.com?subject=To The Moon",
     },
     {
-      title: "Twitter",
+      title: "X",
       icon: <IconBrandX className="h-full w-full text-white" />,
-      href: "#",
+      href: "https://x.com/__paulking",
     },
     {
       title: "Linkedin",
       icon: <IconBrandLinkedin className="h-full w-full text-white" />,
-      href: "#",
+      href: "https://www.linkedin.com/in/kinyattiPaul",
     },
   ];
   return (
     <div className=" h-max items-start w-max md:flex flex-col gap-2 hidden mt-10">
-      <p>Find me @</p>
       <FloatingDock items={links} />
     </div>
   );

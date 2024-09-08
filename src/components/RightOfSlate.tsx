@@ -1,7 +1,6 @@
 import About from "./About";
 import Experience from "./Experience";
 import NavBar from "./NavBar";
-import WorkEthics from "./WorkEthics";
 
 import Projects from "./Projects";
 
@@ -13,7 +12,6 @@ function RightOfSlate() {
         <About />
         <Experience />
         <Projects />
-        <WorkEthics />
       </div>
     </>
   );

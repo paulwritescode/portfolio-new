@@ -1,5 +1,6 @@
 import { IconPdf } from "@tabler/icons-react";
 import { MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 import { experience } from "../data/Experience";
 import { HoverEffect } from "./ui/card-hover-effect";
 
@@ -27,17 +28,17 @@ function Experience() {
         <HoverEffect className="w-full gap-10" items={content} />
       </div>
       <div className="my-8 ">
-        <a
-          href="/src/data/Kinyatti Paul resume.pdf" // Replace with the actual path to your resume
-          className="text-white flex items-center group"
+        <Link
+          to="/src/data/Kinyatti Paul resume.pdf" // Replace with the actual path to your resume
+          className="text-white flex items-center group md:w-max  md:justify-start justify-center "
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="w-8 h-8 mr-2  rounded-sm transition duration-300 ease-in-out group-hover:bg-red-500">
-            <IconPdf className="w-full h-full" />
+          <div>
+            <IconPdf className=" group-hover:animate-bounce w-8 h-8 mr-2  rounded-sm transition duration-300 ease-in-out  group-hover:bg-purple-500" />
           </div>
           <p className="font-semibold text-sm">View full resume</p>
-        </a>
+        </Link>
       </div>
     </>
   );

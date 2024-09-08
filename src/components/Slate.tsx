@@ -7,7 +7,7 @@ function Slate() {
     <>
       <section className=" ">
         <div className="flex flex-col md:flex-row gap-12 justify-center ">
-          <div className="md:sticky md:top-10 md:h-screen md:w-[30%] md:pb-20 justify-center flex">
+          <div className="md:sticky md:top-10 md:h-[90vh]  md:w-[30%] md:pb-20 justify-center flex">
             <LeftOfSlate />
           </div>
           <div className="w-full md:w-[40%]  ">

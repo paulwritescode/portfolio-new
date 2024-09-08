@@ -3,18 +3,18 @@ import { FloatingNav } from "./ui/floating-navbar";
 function NavBar() {
   const navItems = [
     {
-      name: "About",
+      name: "Home",
       link: "/",
       icon: <IconHome className="h-5 w-5 text-white" />,
     },
     {
       name: "Experience",
-      link: "/experience",
+      link: "/",
       icon: <IconUser className="h-5 w-5 text-white" />,
     },
     {
       name: "Projects",
-      link: "/projects",
+      link: "archive",
       icon: <IconMessage className="h-5 w-5 text-white" />,
     },
   ];

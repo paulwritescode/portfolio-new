@@ -1,4 +1,3 @@
-import FunnyNav from "./FunnyNav";
 import Intro from "./Intro";
 import MyTools from "./MyTools";
 import { FloatingDockDemo } from "./SocialLinks";
@@ -10,9 +9,7 @@ function LeftOfSlate() {
         <div>
           <Intro />
         </div>
-        <div>
-          <FunnyNav />
-        </div>
+
         <div>
           <FloatingDockDemo />
           <MyTools />
