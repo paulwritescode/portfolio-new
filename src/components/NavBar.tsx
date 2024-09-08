@@ -1,9 +1,4 @@
-import {
-  IconArchive,
-  IconHome,
-  IconMessage,
-  IconUser,
-} from "@tabler/icons-react";
+import { IconArchive, IconHome, IconUser } from "@tabler/icons-react";
 import { FloatingNav } from "./ui/floating-navbar";
 function NavBar() {
   const navItems = [
