@@ -29,7 +29,7 @@ function Experience() {
       </div>
       <div className="my-8 ">
         <Link
-          to="/src/data/Kinyatti Paul resume.pdf" // Replace with the actual path to your resume
+          to="/src/data/resume.pdf" // Replace with the actual path to your resume
           className="text-white flex items-center group md:w-max  md:justify-start justify-center "
           target="_blank"
           rel="noopener noreferrer"
