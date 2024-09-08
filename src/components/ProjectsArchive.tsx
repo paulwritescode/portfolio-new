@@ -1,5 +1,11 @@
 import { projects } from "@/data/Projects"; // Your projects array
-import { IconHandClick } from "@tabler/icons-react";
+import {
+  IconHandClick,
+  IconLayout,
+  IconSnowflake,
+  IconTools,
+  IconToolsKitchen,
+} from "@tabler/icons-react";
 import { ArrowUpCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import NavBar from "./NavBar"; // Assuming you have a NavBar component
@@ -26,10 +32,13 @@ export function ProjectsArchive() {
             <thead>
               <tr className="text-left">
                 <th className="px-4 py-2">Date</th>
-                <th className="px-4 py-2">Project</th>
+                <th className="px-4 py-2 flex items-center">
+                  <IconSnowflake className="w-5 h-5 mr-1" />
+                  Project
+                </th>
                 {/* Hidden on mobile */}
                 <th className="px-4 py-2 hidden md:table-cell">Artifacts</th>
-                <th className="px-4 py-2 hidden md:table-cell">Built with</th>
+                <th className="px-4 py-2 hidden md:table-cell">Toolbox</th>
                 <th className="px-4 py-2 hidden md:table-cell">Link</th>
               </tr>
             </thead>
