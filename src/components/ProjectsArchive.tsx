@@ -1,11 +1,5 @@
 import { projects } from "@/data/Projects"; // Your projects array
-import {
-  IconHandClick,
-  IconLayout,
-  IconSnowflake,
-  IconTools,
-  IconToolsKitchen,
-} from "@tabler/icons-react";
+import { IconHandClick, IconSnowflake } from "@tabler/icons-react";
 import { ArrowUpCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import NavBar from "./NavBar"; // Assuming you have a NavBar component
