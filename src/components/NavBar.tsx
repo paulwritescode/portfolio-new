@@ -1,4 +1,9 @@
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import {
+  IconArchive,
+  IconHome,
+  IconMessage,
+  IconUser,
+} from "@tabler/icons-react";
 import { FloatingNav } from "./ui/floating-navbar";
 function NavBar() {
   const navItems = [
@@ -15,7 +20,7 @@ function NavBar() {
     {
       name: "Projects",
       link: "archive",
-      icon: <IconMessage className="h-5 w-5 text-white" />,
+      icon: <IconArchive className="h-5 w-5 text-white" />,
     },
   ];
 
