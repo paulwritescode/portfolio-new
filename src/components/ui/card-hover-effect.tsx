@@ -2,7 +2,6 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 export const HoverEffect = ({
   items,
@@ -16,8 +15,7 @@ export const HoverEffect = ({
   return (
     <div className={cn("flex flex-col py-10", className)}>
       {items.map((item, idx) => (
-        <Link
-          to={item?.link}
+        <div
           key={item?.link}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
@@ -84,7 +82,7 @@ export const HoverEffect = ({
               </div>
             </div>
           </Card>
-        </Link>
+        </div>
       ))}
     </div>
   );

@@ -14,7 +14,7 @@ export const projects = [
     ],
 
     stack: ["python", "Go"],
-    url: "https://example.com/fleet",
+    url: "https://telematics-psi.vercel.app/",
   },
   {
     id: 2,
