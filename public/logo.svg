@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="113.80663"
+   height="113.80663"
+   viewBox="0 0 113.80663 113.80663"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(132.90845,-1.8096466)">
+    <circle
+       style="fill:#020617;fill-opacity:1;stroke-width:22.4532;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="path1"
+       cx="-76.005127"
+       cy="58.712959"
+       r="56.903313" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:99.5424px;font-family:Heathergreen;-inkscape-font-specification:Heathergreen;text-align:center;text-anchor:middle;fill:#14b8a6;fill-opacity:1;stroke-width:18.4608;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       x="-76.005127"
+       y="91.302406"
+       id="text1"
+       inkscape:export-filename="logo.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="-76.005127"
+         y="91.302406"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Heathergreen;-inkscape-font-specification:Heathergreen;fill:#14b8a6;fill-opacity:1;stroke-width:18.4608">P</tspan></text>
+  </g>
+</svg>

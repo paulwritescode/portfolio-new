@@ -1,6 +1,7 @@
 export const projects = [
   {
     id: 3,
+    date: 2023,
     name: "Fleet",
     image:
       "https://c.wallhere.com/photos/a9/8a/Vocaloid_anime_girls_Hatsune_Miku_aqua_hair_aqua_eyes_blushing_ponytail_ribbon-138971.jpg!d",
@@ -17,6 +18,7 @@ export const projects = [
   },
   {
     id: 2,
+    date: 2023,
     name: "Zindo",
     image:
       "https://c.wallhere.com/images/de/8d/84f5dfe678f5942e2c1fddea190b-1440559.jpg!d",
@@ -28,11 +30,12 @@ export const projects = [
       "Payment integration details",
     ],
 
-    stack: "python, Go",
+    stack: ["python", "Go"],
     url: "https://example.com/zindo",
   },
   {
     id: 1,
+    date: 2020,
     name: "FutureHive",
     image:
       "https://c.wallhere.com/photos/a9/8a/Vocaloid_anime_girls_Hatsune_Miku_aqua_hair_aqua_eyes_blushing_ponytail_ribbon-138971.jpg!d",
@@ -44,7 +47,7 @@ export const projects = [
       "Customer testimonials",
     ],
 
-    stack: "python, Go",
+    stack: ["python", "Go"],
     url: "https://example.com/futurehive",
   },
 ];
