@@ -16,6 +16,7 @@ export const experience = [
       "Trello",
       "Agile",
       "Tauri",
+      "React Native",
     ],
   },
   {
