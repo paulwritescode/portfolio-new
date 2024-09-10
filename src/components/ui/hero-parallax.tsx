@@ -115,7 +115,7 @@ export const Header = () => {
         artistry and technology to deliver impactful, high-quality products that
         resonate with your audience.
         <span className=" group-hover:text-emerald-400  flex items-center text-base">
-          Click image for detailed view.
+          Scroll and click image for detailed view.
           <IconHandClick className="inline-block ml-2 group-hover:animate-ping" />
         </span>
       </p>
@@ -144,7 +144,7 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.title}
-      className="group/product h-[45rem] w-[50rem] relative flex-shrink-0"
+      className="group/product  h-[45rem]  w-[50rem] relative flex-shrink-0"
     >
       <Link
         to={`/design/${product.id}`}
