@@ -7,16 +7,21 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from "./App.tsx";
+import About from "./components/About.tsx";
+import DesignView from "./components/DesignView.tsx";
+import Experience from "./components/Experience.tsx";
 import { ProjectsArchive } from "./components/ProjectsArchive.tsx";
 import { ThemeProvider } from "./components/theme-provider.tsx";
+import GraphicDesign from "./GraphicDesign.tsx";
 import "./index.css";
-import Experience from "./components/Experience.tsx";
-import About from "./components/About.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element={<App />} />
+      <Route path="/designer" element={<GraphicDesign />} />
+      <Route path="/design/:id" element={<DesignView />} />
+      {/* </Route> */}
       <Route path="/archive" element={<ProjectsArchive />} />
       <Route path="/experience" element={<Experience />} />
       <Route path="/about" element={<About />} />
