@@ -19,11 +19,11 @@ export const projects = [
   {
     id: 2,
     date: 2023,
-    name: "Zindo",
+    name: "Aora",
     image:
       "https://c.wallhere.com/images/de/8d/84f5dfe678f5942e2c1fddea190b-1440559.jpg!d",
     description:
-      "E-commerce website for Zindo, offering a wide range of products with a user-friendly shopping experience and secure payment gateway.",
+      "Aora, a dynamic site dedicated to makeup where users can explore, view, and search for their favorite products.",
     artifacts: [
       "Product catalog",
       "Shopping cart implementation",
