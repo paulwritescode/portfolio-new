@@ -1,5 +1,5 @@
 import { designs } from "@/data/GraphicDesign";
-import { IconArrowBarToLeft } from "@tabler/icons-react";
+import { IconFingerprint } from "@tabler/icons-react";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
@@ -29,24 +29,30 @@ function DesignView() {
 
   // If the design is not found
   if (!design) {
-    return <div>Design not foundfd</div>;
+    return <div>Design not found</div>;
   }
 
   // Render the design details
   return (
     <>
-      <div className="sticky top-0 p-6 backdrop-blur-sm bg-slate-900/50 gap-4 flex items-center justify-center group">
-        <img
-          className="w-16 ml-10 mr-2"
-          src="/tajiri-whitetxt.svg"
-          alt="Tajiri Logo"
-        />
+      <div className="sticky top-0 p-6 backdrop-blur-sm bg-slate-900/50 gap-10 flex items-center justify-center group">
         <Link
           to="/designer" // Updated path
-          className="text-white group-hover:text-emerald-400" // Apply hover effect
+          className="text-white group-hover:text-emerald-400 items-center" // Apply hover effect
         >
-          <IconArrowBarToLeft className="inline-block group-hover:text-orange-600 group-hover:animate-pulse" />{" "}
+          <img
+            className="w-16 ml-10 mr-2 inline-block  group-hover:animate-bounce"
+            src="/tajiri-whitetxt.svg"
+            alt="Tajiri Logo"
+          />
           Back to Studio
+        </Link>
+        <Link
+          to={"/"}
+          className=" group-hover:text-purple-400  flex items-center text-base"
+        >
+          Visit designer
+          <IconFingerprint className="inline-block ml-2 group-hover:animate-bounce" />
         </Link>
       </div>
       <div className="flex flex-col md:flex-row p-10 justify-center gap-4">

@@ -1,5 +1,4 @@
 "use client";
-import { IconHandClick } from "@tabler/icons-react";
 import {
   motion,
   MotionValue,
@@ -70,7 +69,7 @@ export const HeroParallax = ({
         }}
         className=""
       >
-        <motion.div className="flex flex-row-reverse space-x-reverse  space-x-5 mb-5  md:mb-10 md:space-x-20">
+        <motion.div className="flex flex-row-reverse space-x-reverse  space-x-5 mb-5  ">
           {firstRow.map((product) => (
             <ProductCard
               product={product}
@@ -79,7 +78,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row space-x-5 mb-5  md:mb-10 md:space-x-20 ">
+        <motion.div className="flex flex-row space-x-5 mb-5   ">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -114,10 +113,6 @@ export const Header = () => {
         With a deep passion for both aesthetics and functionality, we merge
         artistry and technology to deliver impactful, high-quality products that
         resonate with your audience.
-        <span className=" group-hover:text-emerald-400  flex items-center text-base">
-          Scroll and click image for detailed view.
-          <IconHandClick className="inline-block ml-2 group-hover:animate-ping" />
-        </span>
       </p>
     </div>
   );
