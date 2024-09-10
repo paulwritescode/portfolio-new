@@ -15,7 +15,7 @@ function About() {
         <br />
         <Link to={"/designer"} className="group flex flex-wrap">
           I am also a
-          <div className="text-teal-400 flex animate-pulse group-hover:text-purple-500 group-hover:animate-bounce font-bold mx-1">
+          <div className="text-teal-400 w-max flex animate-pulse group-hover:text-purple-500 group-hover:animate-bounce font-bold mx-1">
             graphic designer
           </div>
           creating visual content.Check out my work here.
