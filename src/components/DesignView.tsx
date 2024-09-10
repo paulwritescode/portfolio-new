@@ -35,7 +35,7 @@ function DesignView() {
   // Render the design details
   return (
     <>
-      <div className="sticky top-0 p-6 backdrop-blur-sm bg-slate-900/20 gap-4 flex items-center justify-center group">
+      <div className="sticky top-0 p-6 backdrop-blur-sm bg-slate-900/50 gap-4 flex items-center justify-center group">
         <img
           className="w-16 ml-10 mr-2"
           src="/tajiri-whitetxt.svg"

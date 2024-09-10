@@ -12,10 +12,10 @@ export const designs = [
   {
     id: 2,
     title: "Memoir of the Heart",
-    font_used: "",
+    font_used: "Montserrat",
     colors: ["3c1456ff", "ffffffff"],
     description:
-      "onnection with nature. Dominated by shades of purple, the logo encapsulates the essence of heartfelt reflection and spiritual resonance. The plant element in the design symbolizes the natural world and its intertwined relationship with the author's introspective verses. The logo beautifully represents how the poet's internal experiences and feelings are translated into a harmonious dialogue with nature",
+      "Memoir of the Heart is the logo for a poetic series exploring the depths of personal emotion and connection with nature. Dominated by shades of purple, the logo encapsulates the essence of heartfelt reflection and spiritual resonance. The plant element in the design symbolizes the natural world and its intertwined relationship with the author's introspective verses. The logo beautifully represents how the poet's internal experiences and feelings are translated into a harmonious dialogue with nature.",
     link: "paulwritescode.github.io",
     thumbnail: "/memoir-of-the-heart.png",
   },
