@@ -52,7 +52,7 @@ function DesignView() {
           className=" group-hover:text-purple-400  flex items-center text-base"
         >
           Visit designer
-          <IconFingerprint className="inline-block ml-2 group-hover:animate-bounce" />
+          <IconFingerprint className="inline-block ml-2 group-hover:text-orange-600 group-hover:animate-bounce" />
         </Link>
       </div>
       <div className="flex flex-col md:flex-row p-10 justify-center gap-4">
