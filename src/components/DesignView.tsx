@@ -67,7 +67,7 @@ function DesignView() {
             <span className="flex gap-2 mt-2">
               {design.colors.map((color) => (
                 <span
-                  className="inline-block w-10 h-10 rounded-md "
+                  className="inline-block w-10 h-10 rounded-md border border-white/40 "
                   style={{ backgroundColor: `#${color}` }}
                   key={color}
                 ></span>

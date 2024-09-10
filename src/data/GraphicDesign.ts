@@ -11,6 +11,26 @@ export const designs = [
   },
   {
     id: 2,
+    title: "Code Sawa",
+    font_used: "Bebas Neue",
+    colors: ["214478ff", "5f8dd3ff", "ffffffff"],
+    description:
+      "Code Sawa is represented by a logo featuring a tick, symbolizing approval, progress, and success. The name Code Sawa combines code, referring to programming and development, with sawa, a Swahili term meaning okay or all right, akin to hakuna matata. This logo embodies the community's focus on fostering a supportive and positive environment for developers, celebrating the joy and satisfaction found in coding and collaboration.",
+    link: "paulwritescode.github.io",
+    thumbnail: "/code-sawa.png",
+  },
+  {
+    id: 3,
+    title: "Dapper Fashion House",
+    font_used: "Montserrat",
+    colors: ["000000", "ffffffff"],
+    description:
+      "Dapper is the logo for a high-fashion clothing line owned by a distinguished fashion model. The design features a needle and yarn, symbolizing the meticulous craftsmanship and attention to detail that define the brand. The logo reflects the elegance and sophistication of the clothing line, emphasizing the artistry involved in creating fashionable, high-quality garments. The combination of these elements highlights the brand’s commitment to stylish and well-crafted clothing.",
+    link: "paulwritescode.github.io",
+    thumbnail: "/dapper.png",
+  },
+  {
+    id: 4,
     title: "Memoir of the Heart",
     font_used: "Montserrat",
     colors: ["3c1456ff", "ffffffff"],
@@ -19,4 +39,17 @@ export const designs = [
     link: "paulwritescode.github.io",
     thumbnail: "/memoir-of-the-heart.png",
   },
+
+  {
+    id: 5,
+    title: "Dawn",
+    font_used: "Bebas Neue",
+    colors: ["9a90daff", "ffffffff"],
+    description:
+      "Dawn is the logo for a poem series that chronicles the journey of a poet as they navigate and reflect on the new experiences and changes in their life. The logo features a lily, a flower renowned for its rich symbolism, including purity, renewal, and the transient nature of existence. The lily captures the essence of the poet's evolving journey and the fresh perspectives that each new experience brings. This design embodies the theme of constant renewal and the beauty found in life's ever-changing moments.",
+    link: "paulwritescode.github.io",
+    thumbnail: "/dawn.png",
+  },
+
+  // mefi
 ];
