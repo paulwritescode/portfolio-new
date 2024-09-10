@@ -144,7 +144,7 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.title}
-      className="group/product h-96 w-[50rem] relative flex-shrink-0"
+      className="group/product h-[45rem] w-[50rem] relative flex-shrink-0"
     >
       <Link
         to={`/design/${product.id}`}
