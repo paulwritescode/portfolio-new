@@ -58,7 +58,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[400vh] py-10 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[300vh] py-10 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -70,7 +70,7 @@ export const HeroParallax = ({
         }}
         className=""
       >
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-10">
+        <motion.div className="flex flex-row-reverse space-x-reverse  space-x-5 mb-5  md:mb-10 md:space-x-20">
           {firstRow.map((product) => (
             <ProductCard
               product={product}
@@ -79,7 +79,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row  mb-10 space-x-20 ">
+        <motion.div className="flex flex-row space-x-5 mb-5  md:mb-10 md:space-x-20 ">
           {secondRow.map((product) => (
             <ProductCard
               product={product}
@@ -144,7 +144,7 @@ export const ProductCard = ({
         y: -20,
       }}
       key={product.title}
-      className="group/product  h-[30rem]  w-[30rem] relative flex-shrink-0"
+      className="group/product w-[10rem] h-[10rem]  md:h-[30rem] md:w-[30rem] relative flex-shrink-0"
     >
       <Link
         to={`/design/${product.id}`}
