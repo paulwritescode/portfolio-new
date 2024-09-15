@@ -50,6 +50,16 @@ export const designs = [
     link: "paulwritescode.github.io",
     thumbnail: "/dawn.png",
   },
+  {
+    id: 6,
+    title: "ToDo",
+    font_used: "Outfit, Heathergreen",
+    colors: ["232e45ff", "ff0000ff  ", "ffffffff"],
+    description:
+      "The logo represents a Todo application developed using Go and React. It embodies the simplicity and functionality of task management, featuring clean lines and modern fonts like Outfit and Heathergreen. The chosen colors highlight the application's user-friendly interface, promoting productivity and organization. This design symbolizes efficiency and structure, reflecting the app's goal of helping users stay on top of their tasks with ease",
+    link: "paulwritescode.github.io",
+    thumbnail: "/todo.png",
+  },
 
   // mefi
 ];
