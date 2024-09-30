@@ -17,6 +17,7 @@ export const experience = [
       "Agile",
       "Tauri",
       "React Native",
+      "Tanstack-Query",
     ],
   },
   {
