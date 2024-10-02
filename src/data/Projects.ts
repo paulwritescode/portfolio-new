@@ -26,9 +26,11 @@ export const projects = [
       "Fleet management documentation",
       "API references",
       "User guides",
+      "Aceternity UI",
+      "ShadCDN",
     ],
 
-    stack: ["python", "Go"],
+    stack: ["React", ],
     url: "https://telematics-psi.vercel.app/",
   },
   {
@@ -45,24 +47,8 @@ export const projects = [
       "Payment integration details",
     ],
 
-    stack: ["python", "Go"],
-    url: "https://example.com/zindo",
+    stack: ["React", "TanStack-Query"],
+    url: "in-progress,
   },
-  {
-    id: 1,
-    date: 2024,
-    name: "FutureHive",
-    image:
-      "https://c.wallhere.com/photos/a9/8a/Vocaloid_anime_girls_Hatsune_Miku_aqua_hair_aqua_eyes_blushing_ponytail_ribbon-138971.jpg!d",
-    description:
-      "E-commerce website for FutureHive, focused on sustainable products and eco-friendly practices.",
-    artifacts: [
-      "Sustainability reports",
-      "Eco-friendly packaging guides",
-      "Customer testimonials",
-    ],
-
-    stack: ["python", "Go"],
-    url: "https://example.com/futurehive",
-  },
+  
 ];
