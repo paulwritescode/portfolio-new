@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 4,
+    id: 3,
     date: 2024,
     name: "ToDo",
     image: "todo.png",
@@ -15,7 +15,7 @@ export const projects = [
     url: "https://github.com/paulwritescode/ToDo",
   },
   {
-    id: 3,
+    id: 2,
     date: 2024,
     name: "Fleet",
     image:
@@ -25,16 +25,16 @@ export const projects = [
     artifacts: [
       "Fleet management documentation",
       "API references",
-      "User guides",
-      "Aceternity UI",
-      "ShadCDN",
+      "User guides"
     ],
 
-    stack: ["React", ],
+    stack: ["React",
+      "Aceternity UI",
+      "ShadCN", ],
     url: "https://telematics-psi.vercel.app/",
   },
   {
-    id: 2,
+    id: 1,
     date: 2024,
     name: "Aora",
     image:
@@ -47,7 +47,9 @@ export const projects = [
       "Payment integration details",
     ],
 
-    stack: ["React", "TanStack-Query"],
+    stack: ["React", "TanStack-Query",
+      "Aceternity UI",
+      "ShadCN", ],
     url: "in-progress",
   },
   
