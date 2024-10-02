@@ -48,7 +48,7 @@ export const projects = [
     ],
 
     stack: ["React", "TanStack-Query"],
-    url: "in-progress,
+    url: "in-progress",
   },
   
 ];
