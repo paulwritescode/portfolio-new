@@ -1,5 +1,20 @@
 export const projects = [
   {
+    "id": 4,
+    "date": 2024,
+    "name": "Leer Bookstore",
+    "image": "leer.png",
+    "description": "A website that serves as a landing and informational page for a writer's books, featuring different sections to enable users to quickly access the information they need.",
+    "artifacts": [
+      "Landing page design",
+      "Book catalog and details",
+      "User-friendly navigation"
+    ],
+    "stack": ["Shadcn", "Aceternity UI", "React", "TypeScript (TSX)"],
+    "url": "https://leer-bookstore.vercel.app/"
+  }
+,  
+  {
     id: 3,
     date: 2024,
     name: "ToDo",

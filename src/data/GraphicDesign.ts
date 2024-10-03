@@ -60,6 +60,16 @@ export const designs = [
     link: "paulwritescode.github.io",
     thumbnail: "/todo.png",
   },
+  {
+    "id": 7,
+    "title": "Leer",
+    "font_used": "Outfit",
+    "colors": ["deaa87ff", "666666ff", "ffffffff"],
+    "description": "The word 'Leer' is derived from the French word for 'to read,' symbolizing a focus on literature and books. The logo represents a Todo application developed using Go and React. It embodies the simplicity and functionality of task management, featuring clean lines and modern fonts like Outfit and Heathergreen. The chosen colors are warm and welcoming, creating a user-friendly interface that promotes productivity and organization. This design highlights efficiency and structure, reflecting the app's goal of helping users stay on top of their tasks with ease.",
+    "link": "paulwritescode.github.io",
+    "thumbnail": "/leer.png"
+  }
+  
 
   // mefi
 ];
