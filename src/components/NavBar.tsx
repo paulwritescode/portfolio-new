@@ -14,7 +14,7 @@ function NavBar() {
     },
     {
       name: "Experience",
-      link: "/",
+      link: "experience",
       icon: <IconUser className="h-5 w-5 text-white" />,
     },
     {

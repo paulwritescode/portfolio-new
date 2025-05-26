@@ -1,7 +1,6 @@
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBrandGithub,
-  IconBrandLinkedin,
   IconBrandX,
   IconMail,
 } from "@tabler/icons-react";
@@ -16,18 +15,18 @@ export function FloatingDockDemo() {
     {
       title: "Email",
       icon: <IconMail className="h-full w-full text-white" />,
-      href: "mailto:kinyattipaul@gmail.com?subject=To The Moon",
+      href: "mailto:kinyattipaul@gmail.com?subject=Hello Paul",
     },
     {
       title: "X",
       icon: <IconBrandX className="h-full w-full text-white" />,
-      href: "https://x.com/__paulking",
+      href: "https://x.com/paulkinyatti",
     },
-    {
-      title: "Linkedin",
-      icon: <IconBrandLinkedin className="h-full w-full text-white" />,
-      href: "https://www.linkedin.com/in/kinyattiPaul",
-    },
+    // {
+    //   title: "Linkedin",
+    //   icon: <IconBrandLinkedin className="h-full w-full text-white" />,
+    //   href: "https://www.linkedin.com/in/kinyattiPaul",
+    // },
   ];
   return (
     <div className=" h-max items-start w-max md:flex flex-col gap-2 hidden mt-10">

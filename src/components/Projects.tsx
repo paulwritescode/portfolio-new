@@ -7,7 +7,7 @@ function Projects() {
     <div className="flex flex-col gap-5 p-4">
       {projects
         .sort((a, b) => b.id - a.id) // Sort the array by ID in descending order
-        .slice(0, 3)
+        // .slice(0, 3)
         .map((project) => (
           <Link
             to={project.url}

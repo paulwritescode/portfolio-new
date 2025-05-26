@@ -3,11 +3,12 @@ import { MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { experience } from "../data/Experience";
 import { HoverEffect } from "./ui/card-hover-effect";
+import NavBar from "./NavBar";
 
 const content = [
   ...experience
     .sort((a, b) => b.id - a.id) // Sort the array by ID in descending order
-    .slice(0, 2) // Select the first two experiences
+    // .slice(0, 4) // Select the first two experiences
     .map((experience) => ({
       title: experience.title,
       description1: experience.description,
@@ -24,6 +25,7 @@ const content = [
 function Experience() {
   return (
     <>
+      <NavBar />
       <div className=" mx-auto ">
         <HoverEffect className="w-full gap-10" items={content} />
       </div>
