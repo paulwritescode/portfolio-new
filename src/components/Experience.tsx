@@ -1,6 +1,4 @@
-import { IconPdf } from "@tabler/icons-react";
 import { MapPin } from "lucide-react";
-import { Link } from "react-router-dom";
 import { experience } from "../data/Experience";
 import { HoverEffect } from "./ui/card-hover-effect";
 import NavBar from "./NavBar";
@@ -29,7 +27,7 @@ function Experience() {
       <div className=" mx-auto ">
         <HoverEffect className="w-full gap-10" items={content} />
       </div>
-      <div className="my-8 ">
+      {/* <div className="my-8 ">
         <Link
           to="https://drive.google.com/file/d/1ONXWGWxIjMRsUQgcHpY5u18tsd2tJCpB/view?usp=drive_link" // Replace with the actual path to your resume
           className="text-white flex items-center group md:w-max  md:justify-start justify-center "
@@ -41,7 +39,7 @@ function Experience() {
           </div>
           <p className="font-semibold text-sm">View full resume</p>
         </Link>
-      </div>
+      </div> */}
     </>
   );
 }
