@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 7,
+    id: 8,
     date: 2024,
     name: "EventHero",
     image: "eventhero.png", // Replace with actual screenshot
@@ -15,7 +15,7 @@ export const projects = [
     url: "https://eventhero.co.za",
   },
   {
-    id: 6,
+    id: 7,
     date: 2025,
     name: "Making Sents",
     image: "making-sents.png", // Replace with actual screenshot
@@ -30,7 +30,7 @@ export const projects = [
     url: "https://making-sents.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     date: 2025,
     name: "AgapeLife",
     image: "agapelife.png", // Replace with actual screenshot
@@ -43,6 +43,27 @@ export const projects = [
     ],
     stack: ["Django Ninja", "React", "fetch", "Tailwind"],
     url: "https://agapelife.vercel.app/",
+  },
+  {
+    id: 5,
+    date: 2024,
+    name: "FutureHive smart solutions",
+    image: "futurehive.png",
+    description:
+      "An Ecommerce platform designed to showcase and sell smart home solutions, featuring a modern design and user-friendly interface.",
+    artifacts: [
+      "Ecommerce product catalog",
+      "Shopping cart and checkout process",
+      "User authentication and profiles",
+      "Responsive design for mobile and desktop",
+      "Admin dashboard for product management",
+      "Payment gateway integration",
+      "Search and filtering functionality",
+      "User reviews and ratings",
+      "Order history and tracking",
+    ],
+    stack: ["Shadcn", "Aceternity UI", "React", "TypeScript, Stripe"],
+    url: "https://www.futurehivesmartsolutions.com/",
   },
   {
     id: 4,
