@@ -23,15 +23,15 @@ const tools = [
 
   {
     id: 5,
-    name: "Notion",
-    designation: "UI/UX-Design",
-    image: "https://www.svgrepo.com/show/361558/notion-logo.svg",
+    name: "Jira",
+    designation: "Project Management",
+    image: "https://www.svgrepo.com/show/376328/jira.svg",
   },
   {
     id: 6,
-    name: "Framer",
-    designation: "UI/UX-Design",
-    image: "https://www.svgrepo.com/show/315561/framer.svg",
+    name: "Redis",
+    designation: "Back-End",
+    image: "https://www.svgrepo.com/show/354272/redis.svg",
   },
   {
     id: 7,
@@ -44,6 +44,12 @@ const tools = [
     name: "Python",
     designation: "Back-End",
     image: "https://www.svgrepo.com/show/452091/python.svg",
+  },
+  {
+    id: 9,
+    name: "AWS",
+    designation: "Back-End",
+    image: "https://www.svgrepo.com/show/448266/aws.svg",
   },
 ];
 function MyTools() {
