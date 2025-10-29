@@ -48,7 +48,18 @@ export const HoverEffect = ({
               <div className="">
                 <h1 className="text-xl font-bold flex flex-wrap items-end mb-1">
                   {item.title}
-                  <span className="text-sm ml-1"> // {item.company}</span>
+                  <span className="text-sm ml-1"> // {item.website ? (
+                    <a
+                      href={item.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-teal-400 transition-colors underline decoration-teal-400/50 hover:decoration-teal-400"
+                    >
+                      {item.company}
+                    </a>
+                  ) : (
+                    item.company
+                  )}</span>
                 </h1>
 
                 <div className="flex gap-1">

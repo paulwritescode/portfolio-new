@@ -1,4 +1,5 @@
 import About from "./About";
+import Certifications from "./Certifications";
 import Experience from "./Experience";
 import NavBar from "./NavBar";
 
@@ -12,6 +13,7 @@ function RightOfSlate() {
         <About />
         <Experience />
         <Projects />
+        <Certifications />
       </div>
     </>
   );

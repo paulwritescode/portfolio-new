@@ -20,36 +20,53 @@ const tools = [
     designation: "Back-End",
     image: "https://www.svgrepo.com/show/353795/go.svg",
   },
-
   {
-    id: 5,
-    name: "Jira",
-    designation: "Project Management",
-    image: "https://www.svgrepo.com/show/376328/jira.svg",
-  },
-  {
-    id: 6,
-    name: "Redis",
-    designation: "Back-End",
-    image: "https://www.svgrepo.com/show/354272/redis.svg",
-  },
-  {
-    id: 7,
-    name: "Figma",
-    designation: "UI/UX-Design",
-    image: "https://www.svgrepo.com/show/452202/figma.svg",
-  },
-  {
-    id: 8,
+    id: 4,
     name: "Python",
     designation: "Back-End",
     image: "https://www.svgrepo.com/show/452091/python.svg",
   },
   {
-    id: 9,
+    id: 5,
+    name: "JavaScript",
+    designation: "Programming",
+    image: "https://www.svgrepo.com/show/452045/js.svg",
+  },
+  {
+    id: 6,
+    name: "TypeScript",
+    designation: "Programming",
+    image: "https://www.svgrepo.com/show/374144/typescript.svg",
+  },
+  {
+    id: 7,
     name: "AWS",
-    designation: "Back-End",
+    designation: "Cloud",
     image: "https://www.svgrepo.com/show/448266/aws.svg",
+  },
+  {
+    id: 9,
+    name: "Docker",
+    designation: "DevOps",
+    image: "https://www.svgrepo.com/show/452192/docker.svg",
+  },
+  {
+    id: 10,
+    name: "MongoDB",
+    designation: "Database",
+    image: "https://www.svgrepo.com/show/331488/mongodb.svg",
+  },
+  {
+    id: 11,
+    name: "PostgreSQL",
+    designation: "Database",
+    image: "https://www.svgrepo.com/show/354200/postgresql.svg",
+  },
+  {
+    id: 12,
+    name: "Figma",
+    designation: "UI/UX-Design",
+    image: "https://www.svgrepo.com/show/452202/figma.svg",
   },
 ];
 function MyTools() {

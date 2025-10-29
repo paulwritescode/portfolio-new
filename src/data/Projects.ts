@@ -1,9 +1,27 @@
 export const projects = [
   {
+    id: 9,
+    date: 2025,
+    name: "Dorline Hospital",
+    image: "dev.png",
+    description:
+      "Developed a responsive, SEO-optimized website serving 500+ monthly users, improving healthcare accessibility. Implemented TypeScript for type safety, reducing runtime errors by 30%. Conducted UI/UX research, iterating Figma prototypes to meet WCAG 2.1 accessibility standards.",
+    artifacts: [
+      "SEO Optimization",
+      "TypeScript Implementation",
+      "UI/UX Research",
+      "Figma Prototyping",
+      "WCAG 2.1 Accessibility",
+      "Responsive Design",
+    ],
+    stack: ["Next.js", "TypeScript"],
+    url: "https://www.dorlinehospital.com/",
+  },
+  {
     id: 8,
     date: 2024,
     name: "EventHero",
-    image: "eventhero.png", // Replace with actual screenshot
+    image: "eventhero.png",
     description:
       "A full-stack event ticketing system enabling event creation, attendee management, and ticket sales. Designed for scale and performance.",
     artifacts: [
@@ -18,16 +36,36 @@ export const projects = [
     id: 7,
     date: 2025,
     name: "Making Sents",
-    image: "making-sents.png", // Replace with actual screenshot
+    image: "making-sents.png",
     description:
-      "A clean and modern company portfolio landing page built with a focus on clarity, performance, and accessibility.",
+      "Conducted comprehensive UI/UX research, analyzing company profile documents to align website features with organizational vision and mission, enhancing user engagement. Designed prototypes in Figma based on research insights, then implemented them into a fully responsive and user-friendly website. Ensured type safety with TypeScript and optimized performance using Next.js best practices.",
     artifacts: [
-      "Responsive design",
+      "UI/UX Research",
+      "Figma Prototyping",
+      "Responsive Design",
+      "TypeScript",
       "Integrated contact form with Nodemailer",
-      "Professional company presentation",
     ],
-    stack: ["Next.js", "Nodemailer", "Aceternity UI"],
+    stack: ["Next.js", "Nodemailer", "TypeScript"],
     url: "https://making-sents.vercel.app/",
+  },
+  {
+    id: 10,
+    date: 2025,
+    name: "Subscriptions Tracker API",
+    image: "dev.png",
+    description:
+      "Built a production-ready API for real-time subscription management, supporting CRUD operations and renewal tracking. Implemented secure JWT authentication and Arcjet for rate limiting and bot protection. Integrated automated email workflows using Upstash and Nodemailer for subscription reminders.",
+    artifacts: [
+      "Real-time subscription management",
+      "JWT Authentication",
+      "Rate limiting and bot protection",
+      "Automated email workflows",
+      "CRUD Operations",
+      "Renewal tracking",
+    ],
+    stack: ["Express.js", "Arcjet", "Upstash Workflows", "MongoDB", "JWT"],
+    url: "in-progress",
   },
   {
     id: 6,

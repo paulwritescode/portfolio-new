@@ -17,6 +17,7 @@ const content = [
       artifacts: experience.artifacts,
       id: experience.id,
       company: experience.company,
+      website: experience.website,
       link: experience.company,
     })),
 ];

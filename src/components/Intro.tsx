@@ -17,7 +17,7 @@ function Intro() {
           words={introName}
         />
         <Highlight className="text-black dark:text-slate-400 text-xl font-bold ">
-          Empowering ideas, elevating experiences,
+          Software Engineer, AWS Certified Cloud Practitioner
         </Highlight>
         <p className="text-xl md:text-2xl lg:text-2xl text-center md:text-left text-white/60 leading-relaxed lg:leading-snug  ">
           I bring every project to life with precision, creativity, and

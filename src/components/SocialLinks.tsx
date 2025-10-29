@@ -2,6 +2,7 @@ import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBrandGithub,
   IconBrandX,
+  IconBrandYoutube,
   IconMail,
 } from "@tabler/icons-react";
 
@@ -21,6 +22,11 @@ export function FloatingDockDemo() {
       title: "X",
       icon: <IconBrandX className="h-full w-full text-white" />,
       href: "https://x.com/paulkinyatti",
+    },
+    {
+      title: "YouTube",
+      icon: <IconBrandYoutube className="h-full w-full text-white" />,
+      href: "https://youtube.com/@paulkinyatti",
     },
     // {
     //   title: "Linkedin",

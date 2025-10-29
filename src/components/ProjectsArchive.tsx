@@ -45,7 +45,15 @@ export function ProjectsArchive() {
 
                   {/* Project Name visible on both mobile and desktop */}
                   <td className="px-4 py-4 font-bold text-lg align-text-top">
-                    <a href={project.url}>{project.name}</a>
+                    {project.url.startsWith("http") ? (
+                      <a href={project.url} target="_blank" rel="noopener noreferrer">
+                        {project.name}
+                      </a>
+                    ) : project.url === "in-progress" ? (
+                      <Link to="/in-progress">{project.name}</Link>
+                    ) : (
+                      <Link to={project.url}>{project.name}</Link>
+                    )}
                   </td>
 
                   {/* Artifacts, Built with, and Link hidden on mobile */}
@@ -69,15 +77,33 @@ export function ProjectsArchive() {
                   </td>
 
                   <td className="px-4 py-4 hidden md:table-cell align-text-top">
-                    <a
-                      href={project.url}
-                      className="text-teal-500 flex items-center hover:text-purple-500"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <IconHandClick className="w-5 h-5 mr-1 group-hover:animate-bounce group-hover:text-purple-500" />
-                      {project.url}
-                    </a>
+                    {project.url.startsWith("http") ? (
+                      <a
+                        href={project.url}
+                        className="text-teal-500 flex items-center hover:text-purple-500"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <IconHandClick className="w-5 h-5 mr-1 group-hover:animate-bounce group-hover:text-purple-500" />
+                        Visit Site
+                      </a>
+                    ) : project.url === "in-progress" ? (
+                      <Link
+                        to="/in-progress"
+                        className="text-teal-500 flex items-center hover:text-purple-500"
+                      >
+                        <IconHandClick className="w-5 h-5 mr-1 group-hover:animate-bounce group-hover:text-purple-500" />
+                        In Progress
+                      </Link>
+                    ) : (
+                      <Link
+                        to={project.url}
+                        className="text-teal-500 flex items-center hover:text-purple-500"
+                      >
+                        <IconHandClick className="w-5 h-5 mr-1 group-hover:animate-bounce group-hover:text-purple-500" />
+                        View Project
+                      </Link>
+                    )}
                   </td>
                 </tr>
               ))}

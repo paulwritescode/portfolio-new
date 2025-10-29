@@ -10,6 +10,7 @@ import App from "./App.tsx";
 import About from "./components/About.tsx";
 import DesignView from "./components/DesignView.tsx";
 import Experience from "./components/Experience.tsx";
+import InProgress from "./components/InProgress.tsx";
 import { ProjectsArchive } from "./components/ProjectsArchive.tsx";
 import { ThemeProvider } from "./components/theme-provider.tsx";
 import GraphicDesign from "./GraphicDesign.tsx";
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="/archive" element={<ProjectsArchive />} />
       <Route path="/experience" element={<Experience />} />
       <Route path="/about" element={<About />} />
+      <Route path="/in-progress" element={<InProgress />} />
     </>
   )
 );
