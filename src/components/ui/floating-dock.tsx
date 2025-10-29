@@ -71,7 +71,7 @@ const FloatingDockMobile = ({
                 <Link
                   to={item.href}
                   key={item.title}
-                  className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center"
+                  className="h-10 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center border border-black/20 dark:border-white/20"
                 >
                   <div className="h-4 w-4">{item.icon}</div>
                 </Link>
@@ -82,9 +82,9 @@ const FloatingDockMobile = ({
       </AnimatePresence>
       <button
         onClick={() => setOpen(!open)}
-        className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-800 flex items-center justify-center"
+        className="h-10 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center border border-black/20 dark:border-white/20 shadow-md"
       >
-        <IconLayoutNavbarCollapse className="h-5 w-5 text-neutral-500 dark:text-neutral-400" />
+        <IconLayoutNavbarCollapse className="h-5 w-5 text-black dark:text-white" />
       </button>
     </div>
   );
@@ -103,7 +103,7 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        "mx-auto hidden md:flex h-16 gap-4 items-end  rounded-lg bg-slate-900 px-4 pb-3",
+        "mx-auto hidden md:flex h-16 gap-4 items-end  rounded-lg bg-white dark:bg-black px-4 pb-3 border border-black/20 dark:border-white/20",
         className
       )}
     >
@@ -174,7 +174,7 @@ function IconContainer({
         style={{ width, height }}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-        className="aspect-square rounded-full bg-slate-800   flex items-center justify-center relative"
+        className="aspect-square rounded-full bg-white dark:bg-black flex items-center justify-center relative border border-black/20 dark:border-white/20"
       >
         <AnimatePresence>
           {hovered && (
@@ -182,7 +182,7 @@ function IconContainer({
               initial={{ opacity: 0, y: 10, x: "-50%" }}
               animate={{ opacity: 1, y: 0, x: "-50%" }}
               exit={{ opacity: 0, y: 2, x: "-50%" }}
-              className="px-2 py-0.5 whitespace-pre rounded-2xl  bg-teal-300  text-black absolute left-1/2 -translate-x-1/2 -top-8 w-fit text-sm"
+              className="px-2 py-0.5 whitespace-pre rounded-2xl  bg-black dark:bg-white  text-white dark:text-black absolute left-1/2 -translate-x-1/2 -top-8 w-fit text-sm border border-black/20 dark:border-white/20"
             >
               {title}
             </motion.div>

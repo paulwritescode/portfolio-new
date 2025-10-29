@@ -10,22 +10,22 @@ function NavBar() {
     {
       name: "Home",
       link: "/",
-      icon: <IconHome className="h-5 w-5 text-white" />,
+      icon: <IconHome className="h-5 w-5 text-black dark:text-white" />,
     },
     {
       name: "Experience",
       link: "experience",
-      icon: <IconUser className="h-5 w-5 text-white" />,
+      icon: <IconUser className="h-5 w-5 text-black dark:text-white" />,
     },
     {
       name: "Projects",
       link: "archive",
-      icon: <IconArchive className="h-5 w-5 text-white" />,
+      icon: <IconArchive className="h-5 w-5 text-black dark:text-white" />,
     },
     {
       name: "Graphic-design",
       link: "designer",
-      icon: <IconPhoto className="h-5 w-5 text-white" />,
+      icon: <IconPhoto className="h-5 w-5 text-black dark:text-white" />,
     },
   ];
 

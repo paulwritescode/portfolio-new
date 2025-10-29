@@ -35,10 +35,10 @@ function DesignView() {
   // Render the design details
   return (
     <>
-      <div className="sticky top-0 p-6 backdrop-blur-sm bg-slate-900/50 gap-10 flex items-center justify-center group">
+      <div className="sticky top-0 p-6 backdrop-blur-sm bg-white/80 dark:bg-black/80 gap-10 flex items-center justify-center group border-b border-black/10 dark:border-white/10">
         <Link
           to="/designer" // Updated path
-          className="text-white group-hover:text-emerald-400 items-center" // Apply hover effect
+          className="text-black dark:text-white group-hover:text-gray-600 dark:group-hover:text-gray-300 items-center" // Apply hover effect
         >
           <img
             className="w-16 ml-10 mr-2 inline-block  group-hover:animate-bounce"
@@ -49,10 +49,10 @@ function DesignView() {
         </Link>
         <Link
           to={"/"}
-          className=" group-hover:text-purple-400  flex items-center text-base"
+          className="text-black dark:text-white group-hover:text-gray-600 dark:group-hover:text-gray-300  flex items-center text-base"
         >
           Visit designer
-          <IconFingerprint className="inline-block ml-2 group-hover:text-orange-600 group-hover:animate-bounce" />
+          <IconFingerprint className="inline-block ml-2 group-hover:animate-bounce" />
         </Link>
       </div>
       <div className="flex flex-col md:flex-row p-10 justify-center gap-4">
@@ -64,23 +64,23 @@ function DesignView() {
           />
         </div>
         <div className="">
-          <h1 className="font-bold text-4xl mb-4">{design.title}</h1>
-          <p className="flex flex-col text-xl my-4">
+          <h1 className="font-bold text-4xl mb-4 text-black dark:text-white">{design.title}</h1>
+          <p className="flex flex-col text-xl my-4 text-black dark:text-white">
             <span className="text-xs mb-1">Font Used</span> {design.font_used}
           </p>
-          <p className="flex flex-col text-xl my-4">
+          <p className="flex flex-col text-xl my-4 text-black dark:text-white">
             <span className="text-xs mb-1">Colors</span>
             <span className="flex gap-2 mt-2">
               {design.colors.map((color) => (
                 <span
-                  className="inline-block w-10 h-10 rounded-md border border-white/40 "
+                  className="inline-block w-10 h-10 rounded-md border border-black/20 dark:border-white/20 "
                   style={{ backgroundColor: `#${color}` }}
                   key={color}
                 ></span>
               ))}
             </span>
           </p>{" "}
-          <p className="flex flex-col text-xl my-4 w-full md:w-[40rem]">
+          <p className="flex flex-col text-xl my-4 w-full md:w-[40rem] text-black dark:text-white">
             <span className="text-xs mb-1">About</span>
             {design.description || "No description available"}
           </p>

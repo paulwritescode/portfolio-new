@@ -10,22 +10,22 @@ export function FloatingDockDemo() {
   const links = [
     {
       title: "GitHub",
-      icon: <IconBrandGithub className="h-full w-full text-white" />,
+      icon: <IconBrandGithub className="h-full w-full text-black dark:text-white" />,
       href: "https://github.com/paulwritescode",
     },
     {
       title: "Email",
-      icon: <IconMail className="h-full w-full text-white" />,
+      icon: <IconMail className="h-full w-full text-black dark:text-white" />,
       href: "mailto:kinyattipaul@gmail.com?subject=Hello Paul",
     },
     {
       title: "X",
-      icon: <IconBrandX className="h-full w-full text-white" />,
+      icon: <IconBrandX className="h-full w-full text-black dark:text-white" />,
       href: "https://x.com/paulkinyatti",
     },
     {
       title: "YouTube",
-      icon: <IconBrandYoutube className="h-full w-full text-white" />,
+      icon: <IconBrandYoutube className="h-full w-full text-black dark:text-white" />,
       href: "https://youtube.com/@paulkinyatti",
     },
     // {

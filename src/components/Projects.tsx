@@ -19,7 +19,7 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
                 key={project.id}
-                className="gap-4 rounded-lg flex md:flex-row flex-col items-start mb-5 hover:bg-purple-400/5 p-4 group"
+                className="gap-4 rounded-lg flex md:flex-row flex-col items-start mb-5 hover:bg-black/5 dark:hover:bg-white/5 p-4 group border border-transparent hover:border-black/10 dark:hover:border-white/10 transition-colors"
               >
             {/* Image */}
             {project.image && (
@@ -31,19 +31,19 @@ function Projects() {
             )}
             <div>
               {/* Project Name */}
-              <h2 className="text-xl mb-2 font-bold flex flex-wrap">
+              <h2 className="text-xl mb-2 font-bold flex flex-wrap text-black dark:text-white">
                 {project.name}
               </h2>
 
               {/* Description */}
-              <p className="text-slate-400 text-base  flex flex-wrap">
+              <p className="text-black dark:text-gray-300 text-base  flex flex-wrap">
                 {project.description}
               </p>
 
               {/* Artifacts */}
 
-              <p className="  text-sm mt-2 bg-teal-200/10 group-hover:text-teal-400 rounded-md p-2  px-3 flex ">
-                <IconAffiliateFilled className="w-5 h-5 mr-2 text-teal-400 group-hover:text-purple-500" />
+              <p className="  text-sm mt-2 bg-black/10 dark:bg-white/10 group-hover:text-black dark:group-hover:text-white rounded-md p-2  px-3 flex border border-black/20 dark:border-white/20">
+                <IconAffiliateFilled className="w-5 h-5 mr-2 text-black dark:text-white" />
                 {project.artifacts.join(",  ")}
               </p>
             </div>
@@ -55,7 +55,7 @@ function Projects() {
             <Link
               to={isInProgress ? "/in-progress" : project.url}
               key={project.id}
-              className="gap-4 rounded-lg flex md:flex-row flex-col items-start mb-5 hover:bg-purple-400/5 p-4 group"
+              className="gap-4 rounded-lg flex md:flex-row flex-col items-start mb-5 hover:bg-black/5 dark:hover:bg-white/5 p-4 group border border-transparent hover:border-black/10 dark:hover:border-white/10 transition-colors"
             >
               {/* Image */}
               {project.image && (
@@ -67,19 +67,19 @@ function Projects() {
               )}
               <div>
                 {/* Project Name */}
-                <h2 className="text-xl mb-2 font-bold flex flex-wrap">
+                <h2 className="text-xl mb-2 font-bold flex flex-wrap text-black dark:text-white">
                   {project.name}
                 </h2>
 
                 {/* Description */}
-                <p className="text-slate-400 text-base  flex flex-wrap">
+                <p className="text-black dark:text-gray-300 text-base  flex flex-wrap">
                   {project.description}
                 </p>
 
                 {/* Artifacts */}
 
-                <p className="  text-sm mt-2 bg-teal-200/10 group-hover:text-teal-400 rounded-md p-2  px-3 flex ">
-                  <IconAffiliateFilled className="w-5 h-5 mr-2 text-teal-400 group-hover:text-purple-500" />
+                <p className="  text-sm mt-2 bg-black/10 dark:bg-white/10 group-hover:text-black dark:group-hover:text-white rounded-md p-2  px-3 flex border border-black/20 dark:border-white/20">
+                  <IconAffiliateFilled className="w-5 h-5 mr-2 text-black dark:text-white" />
                   {project.artifacts.join(",  ")}
                 </p>
               </div>
@@ -89,11 +89,11 @@ function Projects() {
       <div className="my-8 ">
         <Link
           to="archive"
-          className="text-white flex items-center group md:justify-start justify-center md:w-max"
+          className="text-black dark:text-white flex items-center group md:justify-start justify-center md:w-max"
           rel="noopener noreferrer"
         >
           <div>
-            <IconListDetails className="group-hover:animate-bounce w-8 h-8 mr-2  rounded-sm transition duration-300 ease-in-out  group-hover:bg-purple-500" />
+            <IconListDetails className="group-hover:animate-bounce w-8 h-8 mr-2  rounded-sm transition duration-300 ease-in-out  group-hover:text-gray-600 dark:group-hover:text-gray-300" />
           </div>
           <p className="font-semibold text-sm">Full projects archive</p>
         </Link>

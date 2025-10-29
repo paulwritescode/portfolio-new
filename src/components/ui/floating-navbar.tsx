@@ -56,7 +56,7 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit  fixed top-10 inset-x-0 mx-auto border  border-teal-400/[0.15] rounded-full dark:bg-black bg-slate-900 z-[5000] px-7 py-3  items-center justify-center space-x-4",
+          "flex max-w-fit  fixed top-10 inset-x-0 mx-auto border  border-black/20 dark:border-white/20 rounded-full bg-white dark:bg-black z-[5000] px-7 py-3  items-center justify-center space-x-4 shadow-lg",
           className
         )}
       >
@@ -65,7 +65,7 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             to={navItem.link}
             className={cn(
-              "relative dark:text-teal-500 items-center flex  text-white dark:hover:text-neutral-300 hover:text-purple-500 "
+              "relative items-center flex  text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors "
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
